@@ -354,7 +354,7 @@ endif
 libnfc_nci_linux_la_FLAGS += -pthread -w
 libnfc_nci_linux_la_FLAGS += -DNFC_NXP_NOT_OPEN_INCLUDED=TRUE
 libnfc_nci_linux_la_FLAGS += -DNXP_HW_SELF_TEST
-libnfc_nci_linux_la_FLAGS += -DNXP_NFC_NATIVE_ENABLE_HCE=TRUE
+libnfc_nci_linux_la_FLAGS += -DNXP_NFC_NATIVE_ENABLE_HCE=FALSE
 
 if LLCP1_3
 libnfc_nci_linux_la_FLAGS += -DNFC_NXP_LLCP_SECURED_P2P=TRUE
